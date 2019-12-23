@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Form Registration</title>
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700|Archivo+Narrow:400,700" rel="stylesheet" type="text/css">
+<link href="styles/style.css" rel="stylesheet" type="text/css" media="all" />
+
+</head>
+<body>
+<div id="logo" class="container">
+	<center>
+	<h1>FORM EXERCISE</a></h1>
+	</center>
+</div>
+
+<div id="page" class="container">
+	<div id="box1">
+		<h2 class="title"><a href="#">Member Registration Form</a></h2>
+		<div style="clear: both;">&nbsp;</div>
+		<div class="entry">
+			<p><strong>Fill out the registration form on the side with the correct data. All the fields that exist in this form must be filled</strong></p>
+			
+		</div>
+	</div>
+    
+	<div id="box2">
+   <!-- BUILD FORM PENDAFTARAN START FROM HERE, INCLUDE FULLNAME,USERNAME,PASSWORD,GENDER,BIRTDATE,HOBY,ADDRESS AND SUBMIT BUTTON -->
+
+	<div id="content">
+			<!-- Start Content -->
+			  <div class="container">
+				<div id="contact_left">
+				   <!-- Start Contact Left -->
+					  <form id="form_contact" method="post" action="">
+					   <table cellspacing="20">
+						   <tr>
+							 <td>Fullname</td>
+							 <td>:</td>
+							 <td>
+								 <input type="text" id="fullname" name="fullname"
+								 placeholder="please fill fullname" value="" required autocomplete="">
+							 </td>
+						   </tr>
+						   <tr>
+							 <td>Username</td>
+							 <td>:</td>
+							 <td>
+								 <input type="text" id="username" name="fullname"
+								 placeholder="Please Input Username" value="">
+							 </td>
+						   </tr>
+						   <tr>
+							 <td>Password</td>
+							 <td>:</td>
+							 <td>                              
+								 <input type="password" id="password" name="password"
+								 placeholder="Password" value="">
+							 </td>
+						   </tr>
+						   <tr>
+							 <td>Email</td>
+							 <td>:</td>
+							 <td>                              
+								 <input type="email" id="useremail" name="useremail"
+								 placeholder="please Insert Email" value="">
+							 </td>
+						   </tr>
+						   <tr>
+							 <td>Gender</td>
+							 <td>:</td>
+							 <td>                              
+								 <input type="radio" id="gendermale" name="gender"
+								 value="male" checked>
+								 &nbsp;Male
+								 &nbsp;&nbsp;&nbsp;&nbsp;
+								 <input type="radio" id="genderfemale" name="gender"
+								 value="female">
+								 &nbsp;Female
+							 </td>
+						   </tr>
+						   <tr>
+							 <td>Birthdate</td>
+							 <td>:</td>
+							 <td>     
+						                         
+						   <select id="day" name="day">
+							 <option value="">--Day--</option>
+							 <option value="1">1</option>
+							 <option value="2">2</option>
+							 <option value="3">3</option>
+							 <option value="4">4</option>
+							 <option value="5">5</option>
+						   </select>
+						   &nbsp;&nbsp;
+						   <select id="month" name="month">
+							 <option value="">--Month--</option>
+							 <option value="1">January</option>
+							 <option value="2">February</option>
+							 <option value="3">March</option>
+							 <option value="4">April</option>
+							 <option value="5">May</option>
+						   </select>
+						 &nbsp;&nbsp;
+						   <select id="year" name="year">
+							 <option value="">--Year--</option>
+							 <option value="1994">1994</option>
+							 <option value="1995">1995</option>
+							 <option value="1996">1996</option>
+							 <option value="1997">1997</option>
+							 <option value="1998">1998</option>
+						   </select>
+							 </td>
+						   </tr>
+						   <tr>
+							 <td>Hobby</td>
+							 <td>:</td>
+							 <td>
+							 <input type="checkbox" id="sports" name="sports"
+							   value="sports">&nbsp;Sports
+							   &nbsp;&nbsp;
+							 <input type="checkbox" id="travel" name="travel"
+							   value="travel">&nbsp;Travel
+							   &nbsp;&nbsp;
+							 <input type="checkbox" id="culture" name="culture"
+							   value="culture">&nbsp;Culture
+							   <br>
+							   <input type="checkbox" id="Cullinary" name="Cullinary"
+							   value="Cullinary">&nbsp;Cullinary
+							   &nbsp;&nbsp;
+							 <input type="checkbox" id="Shopping" name="Shopping"
+							   value="Shopping">&nbsp;Shopping
+							   &nbsp;&nbsp;
+							 <input type="checkbox" id="Praying" name="Praying"
+							   value="Praying">&nbsp;Praying
+							   &nbsp;&nbsp;
+							 </td>
+						   </tr>
+						   </tr>
+						   <tr>
+						   <td valign="top">Address</td>
+						   <td valign="top">:</td>
+						   <td>
+							 <textarea id="Address" name="Address" >Address</textarea>
+   
+						   </td>
+						   </tr>
+						 </tr>
+							 <td></td>
+							 <td></td>
+							 <td>
+							   <input type="submit" id="submit" name="submit"
+							   value="Submit">
+							   &nbsp;&nbsp;
+							   <input type="reset" id="reset" name="reset"
+							   value="Reset">
+							 </td>
+						 </tr>
+					   </table>
+						 
+   
+   
+   
+					  </form>
+				</div>
+			  </div>
+			<!-- End Content -->
+		  </div>
+</div>
+<div id="footer" class="container">
+	<p>Copyright (c) 2019 Suhanda </p>
+</div>
+</body>
+</html>
